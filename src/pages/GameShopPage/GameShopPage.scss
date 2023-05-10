@@ -1,0 +1,56 @@
+@import "../../utils/_examvariables.scss";
+
+#game_shop_page {
+  margin-top: 100px;
+
+  .game_shop_page_heading {
+    margin-bottom: 24px;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+    }
+  }
+
+  .game_shop_page_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+
+    .game_shop_page_content_item {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      justify-items: start;
+      align-items: end;
+      justify-content: center;
+      gap: 12px;
+
+      .game_shop_page_content_item_image {
+        img {
+          display: block;
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+      .game_shop_page_content_item_main {
+        h3 {
+          margin-bottom: 12px;
+          font-weight: bold;
+          font-size: 24px;
+        }
+
+        p {
+          margin-bottom: 20px;
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        button {
+          border-radius: 6px;
+          padding: 6px 36px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#my_game_page {
+  margin-top: 100px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .my_game_page_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,68 @@
+@import "../../utils/_examvariables.scss";
+
+#game_shop {
+  .game_shop_heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: $gaps;
+    padding-top: 12px;
+    margin-bottom: 12px;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+
+    button {
+      border-radius: 8px;
+      padding: 6px 32px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .game_shop_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    background-color: $light-grey;
+    padding: 48px 60px;
+
+    .game_shop_content_item {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      justify-items: start;
+      align-items: end;
+      justify-content: center;
+      gap: 12px;
+
+      .game_shop_content_item_image {
+        img {
+          display: block;
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+      .game_shop_content_item_main {
+        h3 {
+          margin-bottom: 12px;
+          font-weight: bold;
+          font-size: 24px;
+        }
+
+        p {
+          margin-bottom: 20px;
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        button {
+          border-radius: 6px;
+          padding: 6px 36px;
+        }
+      }
+    }
+  }
+}

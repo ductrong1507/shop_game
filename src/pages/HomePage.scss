@@ -1,0 +1,11 @@
+#home_page {
+  width: 100%;
+  margin-top: 72px;
+
+  .home_page_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    margin-top: 24px;
+  }
+}
